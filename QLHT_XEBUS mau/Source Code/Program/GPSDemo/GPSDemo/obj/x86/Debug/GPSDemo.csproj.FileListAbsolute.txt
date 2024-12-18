@@ -1,0 +1,19 @@
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.Form1.resources
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.Properties.Resources.resources
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\bin\Debug\GPSDemo.exe.config
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\bin\Debug\GPSDemo.exe
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\bin\Debug\GPSDemo.pdb
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.exe
+c:\users\hehe\documents\visual studio 2010\Projects\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.pdb
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\bin\Debug\GPSDemo.exe.config
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\bin\Debug\GPSDemo.exe
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\bin\Debug\GPSDemo.pdb
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.Form1.resources
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.Properties.Resources.resources
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.exe
+C:\Users\admin\Downloads\QLHT_XEBUS\Source Code\Program\GPSDemo\GPSDemo\obj\x86\Debug\GPSDemo.pdb

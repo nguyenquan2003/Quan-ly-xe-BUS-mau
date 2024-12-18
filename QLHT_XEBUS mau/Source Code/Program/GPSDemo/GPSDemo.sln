@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSDemo", "GPSDemo\GPSDemo.csproj", "{62E2C536-C2E4-4607-8C8D-D9D9DF60C236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E2C536-C2E4-4607-8C8D-D9D9DF60C236}.Debug|x86.ActiveCfg = Debug|x86
+		{62E2C536-C2E4-4607-8C8D-D9D9DF60C236}.Debug|x86.Build.0 = Debug|x86
+		{62E2C536-C2E4-4607-8C8D-D9D9DF60C236}.Release|x86.ActiveCfg = Release|x86
+		{62E2C536-C2E4-4607-8C8D-D9D9DF60C236}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

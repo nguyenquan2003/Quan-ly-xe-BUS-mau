@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BusMasterPageV2.master.cs" Inherits="BusMasterPageV2" %>
+
+
+<%@ Register src="GoogleMapForASPNet.ascx" tagname="GoogleMapForASPNet" tagprefix="uc1" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head  runat="server">
+    <title>Bản đồ xe Buýt</title>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="header">
+            <div class="logobus1">Hệ thống giám sát và quản lý</div>
+            <div class="logobus2">Xe Buýt Hà Nội</div>
+            <ul>
+			    <li><a href="http://www.bluegelmedia.com">Trang chủ</a></li>
+			    <li><a href="http://www.bluegelmedia.com">Thông tin</a></li>
+			    <li><a href="http://www.bluegelmedia.com">Bản đồ xe bus</a></li>
+			    <li><a href="http://www.bluegelmedia.com">Tra cứu tuyến xe</a></li>
+			    <li><a href="http://www.bluegelmedia.com">Tra cứu bến xe</a></li>
+			    <li><a href="http://www.bluegelmedia.com">Tìm đường đi</a></li>
+                <li><a href="http://www.bluegelmedia.com">Admin</a></li>
+                <li><a href="http://www.bluegelmedia.com">Giúp đỡ</a></li>
+		    </ul>
+        </div>
+
+        <div class="content">
+            <div class="left">
+                <div style ="height: 500px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="right">
+                <div class="map">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="footerline"></div>
+        </div>
+        <div class="footer">Copyright © 2007 Charity Organization.  All rights reserved.<br />
+	        <span class="bgfooter"><a href="http://www.bluegelwebsites.com" target="_blank">Easy Site Builder</a> &amp; <a href="http://www.bluegelmedia.com" target="_blank">web design</a></span><br />
+	    </div>	
+    </div>
+    </form>
+</body>
+</html>

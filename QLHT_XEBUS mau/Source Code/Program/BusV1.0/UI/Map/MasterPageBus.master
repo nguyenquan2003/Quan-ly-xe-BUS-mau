@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageBus.master.cs" Inherits="MasterPageBus" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site1.css" rel="stylesheet" type="text/css" />
+    <%--<script type="text/javascript">
+        function updateMenu() {
+
+            location.href = "BusParkSearch.aspx";
+            document.getElementById('home').className = 'current';
+        }
+
+        function updateMenu1() {
+            document.getElementById('home1').className = 'current';
+            alert('hello');
+        }
+    </script>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+        <div class="logo">
+            <div class="logo_icon"></div>
+            <%--<div class="logo_text">Hệ thống giám sát và quản lý Xe Buýt Hà Nội</div>--%>
+        </div>
+        <div class="menuHeader">
+            <ul id="menu">
+                <li><a href="BusLine.aspx" title="">Tìm tuyến xe </a></li>
+                <li><a href="BusParkSearch.aspx" title="">Tra cứu Bãi đỗ</a></li>
+                <li><a href="#" title="">Tìm đường đi</a></li>
+                <li><a href="#" title="">Giám sát</a></li>
+                <li><a href="#" title="">Báo cáo lịch sử</a></li>
+                <li><a href="#" title="">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class ="content">
+        <div class="content_left">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        <div class="content_right">
+            <div class="map">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+        </div>
+        <div class="footerline"></div>
+    </div>
+    <div class="footer">
+        Copyright © 2012 SEBK - HUT<br />
+	        <span class="bgfooter"><a href="http://www.hut.edu.vn" target="_blank">Ha Noi University Of Technology</a></span><br />
+    </div>
+    </form>
+</body>
+</html>

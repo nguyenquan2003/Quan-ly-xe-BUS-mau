@@ -1,0 +1,234 @@
+body{
+	
+	/*background-color: #F8F8F8;*/
+	background-color:transparent;
+}
+
+/*----------------header---------------------*/
+.header{
+	width:1325px;
+	height:100px;
+	position:relative;
+	margin: 0px 0px 0px 0px;
+}
+
+.header1{
+	width:1325px;
+	height:60px;
+	position:relative;
+	margin: 0px 0px 0px 0px;
+}
+
+.logo
+{
+    top:5px;
+    height: 50px;
+    background-color: transparent;
+    width:100%;
+    background-image:url(../Images/WebImages/banner.png);
+}
+
+/*.logo_icon
+{
+    top:5px;
+    height: 50px;
+    background-image:url(../Images/WebImages/bus-icon.png);
+    width:50px;
+    float:left;
+    margin-left:20px;
+}
+.logo_text
+{
+    top:5px;
+    height: 50px;
+    width: 1235px;
+    font-size: 24px;
+    font-style:italic;
+    color:Orange;
+    float:left;
+    margin-left:20px;
+}*/
+
+.menuHeader
+{
+    top: 55px;
+    height:43px;
+    width:100%;
+}
+.menuHeader{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font-family:verdana,geneva,arial,helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:8e8e8e;
+	}
+.menuHeader ul{
+	background:url(../Images/WebImages/menu-bg.gif) top left repeat-x;
+	height:43px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.menuHeader li{
+		float:left;
+		}
+	.menuHeader li a{
+		color:#666666;
+		display:block;
+		font-weight:bold;
+		line-height:43px;
+		padding:0px 25px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menuHeader li a:hover{
+			color:#000000;
+			text-decoration:none;
+			}
+	.menuHeader li ul{
+		background:#e0e0e0;
+		border-left:2px solid #0079b2;
+		border-right:2px solid #0079b2;
+		border-bottom:2px solid #0079b2;
+		display:none;
+		height:auto;
+		filter:alpha(opacity=95);
+		opacity:0.95;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menuHeader li:hover ul{
+		display:block;
+		}
+	.menuHeader li li {
+		display:block;
+		float:none;
+		width:230px;
+		}
+	.mmenuHeaderenu li ul a{
+		display:block;
+		font-size:12px;
+		font-style:normal;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menuHeader li ul a:hover{
+			/*background:#949494;*/
+			/*background:#0079B2;*/
+			color:#0079B2;
+			opacity:1.0;
+			filter:alpha(opacity=100);
+			}
+	.menuHeader p{
+		clear:left;
+		}	
+	.menuHeader #current{
+		background:url(../Images/WebImages/current-bg.gif) top left repeat-x;
+		color:#ffffff;
+		}
+		
+
+/*-------------------content--------------------*/
+.content
+{
+	background-image:url(../Images/WebImages/content_bg.gif);
+	width:1325px;
+	margin-top: 10px;
+	height:700px;
+}
+
+.content2
+{
+	background-image:url(../Images/WebImages/content_bg.gif);
+	width:1332px;
+	margin-top: 5px;
+	height:750px;
+}
+.content1
+{
+	background-image:url(../Images/WebImages/content_bg.gif);
+	width:1332px;
+	margin-top: 5px;
+	height:750px;
+}
+.content_left {
+	float:left;
+	width:342px;
+	margin-left:0px;
+	display:block;
+	height:695px;
+	border-width:1px;
+	border-style:groove;
+    border-color: Gray;
+}
+.content_left1 {
+	float:left;
+	width:350px;
+	margin-left:0px;
+	display:block;
+	height:750px;
+	border-width:1px;
+	border-style:groove;
+    border-color: Gray;
+}
+.content_left2 {
+	float:left;
+	width:590px;
+	margin-left:0px;
+	display:block;
+	height:750px;
+    margin-right: 18px;
+}
+
+.content_right {
+	float:right;
+	width:975px;
+	height:695px;
+	margin: 0px 0px 0px 0px;
+	border-left: #FFF 5px solid;
+
+}
+.content_right1 {
+	float:right;
+	width:975px;
+	height:750px;
+	margin: 0px 0px 0px 0px;
+	border-left: #FFF 5px solid;
+
+}
+.content_right2 {
+	float:right;
+	width:700px;
+	height:750px;
+	margin: 0px 0px 0px 0px;
+	border-left: #FFF 5px solid;
+
+}
+
+/*---------------------footer---------------------------*/
+.footerline
+{   clear:both;
+    background-image:url(../Images/WebImages/footer1_bg.gif);
+    font-size:1px;
+    height:5px;
+}
+.footer {
+	width:1325px;
+	text-align:center;
+	padding: 20px 0px;
+}
+/*---------------------footer---------------------------*/
+.map
+{
+    border-style:groove;
+    border-width:1px;
+    border-color: Gray;
+    width:974px;
+	height:750px;
+}

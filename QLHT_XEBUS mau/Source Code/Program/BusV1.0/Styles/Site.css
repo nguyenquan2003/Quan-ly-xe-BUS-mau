@@ -1,0 +1,124 @@
+﻿body {
+	background-color: #A6BF7D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 10px 10px;
+	padding: 0px;
+}
+.container {
+	margin: 0px auto;
+	text-align: left;
+	width: 1000px;
+}
+a{
+	font-size:12px;
+}
+p{
+	margin: 15px 0px;
+}
+
+/********************** Header ***************************/
+.header {
+	margin: 0px 0px 0px 0px;
+	background-image:url(../Images/WebImages/BusBanner5.png);
+	width:1000px;
+	height:288px;
+	position:relative;
+}
+.header ul{
+	background-color:#85a157;
+	/*background-color:#fff495;*/
+	width:994px;
+	border: 3px solid #FFFFFF;
+	display:block;
+	top:255px;
+	position:absolute;
+	margin: 0px 0px 0px 0px;
+	height:22px;
+	padding:5px 0px 0px 0px;
+	text-align:center;
+	
+}
+.header li{
+	display:inline;
+}
+.header ul a{
+	text-decoration:none;
+	color:Black;
+	margin: 0px 15px;
+}
+.header ul a:hover{
+	text-decoration:underline;
+	color: Blue;
+}
+.logobus1,.logobus2 {
+	font-size: 24px;
+	font-style:italic;
+	color:#FFFFFF;
+	position:absolute;
+}
+.logobus1{
+	top:15px;
+	left:70px;
+}
+.logobus2{
+	top:44px;
+	left:94px;
+}
+.header_text {
+	top:90px;
+	left:43px;
+	width:230px;
+	position:absolute;
+}
+.header_text p{
+	font-size: 18px;
+	color:#FFFFFF;
+}
+.header_text a{color:#28556b;}
+.header_text a:hover{color:#c77e0c;}
+
+/********************** Content ***************************/
+.content {
+	background-image:url(../Images/WebImages/content_bg.gif);
+	width:1000px;
+}
+
+.left {
+	float:left;
+	width:210px;
+	margin-left:10px;
+	padding: 0px 10px 30px 0px;
+	display:inline;
+}
+
+.right {
+	float:right;
+	width:711px;
+	padding: 0px 20px 20px 20px;
+	margin-top:10px;
+	border-left: #FFF 2px solid;
+
+}
+
+/********************** Footer ***************************/
+.footerline {
+clear:both;
+background-image:url(../Images/WebImages/footer_bg.gif);
+font-size:1px;
+height:10px;
+}
+.footer {
+	width:1000px;
+	text-align:center;
+	padding: 20px 0px;
+}
+
+/****************************map**************************/
+.map
+{
+    border-style:groove;
+    border-width:1px;
+    border-color: Gray;
+    width: 718px;
+    height: 501px;}
